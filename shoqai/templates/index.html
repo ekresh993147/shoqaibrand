@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Shoqai Suits</title>
+	<link rel="shortcut icon" type="image/jpg" href="{{ url_for('static', filename='assets/img/favicon1.png') }}">
+   <link rel="preload" href="{{ url_for('static', filename='css/normalize.css') }}" as="style">
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+   <link rel="preload" href="{{ url_for('static', filename='css/style.css') }}" as="style">
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+   
+</head>
+<body>
+	<header class="header" id="home">
+		<div class="contenedor">
+			<nav class="header__nav">
+				<a href="/" style=" text-decoration:none"><h2 class="header__logo">SHOQAI BRAND</h2></a> <!--logo-->
+
+				<div class="header__links-container">
+					<ul class="header__links-list">
+						<li><a href="#about-me">About Us</a></li>
+						<li><a href="#catalog">Catalog</a></li>
+						<li><a href="#contact-me">Contact</a></li>
+						<li><a href="./register">Register</a></li>
+					</ul>
+				</div>
+				<div class="header__toggle">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</nav>
+
+			<section class="header__hero">
+				<section class="header__intro">
+					<h1 class="header__name">Welcome to  <span id="name-short">Shoqai</span><span class="typed"></span></h1>
+					<p>Our online store where you can find suits according to your preference</p>
+					<a class="btn" href="#projects">Catalog</a>
+				</section>
+				<div class="header__personal">
+					<figure class="header__img-container">
+						<img class="header__img" src="{{ url_for('static', filename='assets/img/Erka.jpg') }}" alt="young man portrait">
+					</figure>
+					<section class="header__personal-links">
+						<a href="https://github.com/" target="_blank" title="Github">
+							<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github header__personal-icon" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ABABAB" fill="none" stroke-linecap="round" stroke-linejoin="round">
+								<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+								<path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+							</svg>
+						</a>
+						<a href="https://www.linkedin.com/feed/" target="_blank" title="LinkedIn">
+							<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin header__personal-icon" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ABABAB" fill="none" stroke-linecap="round" stroke-linejoin="round">
+								<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+								<rect x="4" y="4" width="16" height="16" rx="2" />
+								<line x1="8" y1="11" x2="8" y2="16" />
+								<line x1="8" y1="8" x2="8" y2="8.01" />
+								<line x1="12" y1="16" x2="12" y2="11" />
+								<path d="M16 16v-3a2 2 0 0 0 -4 0" />
+							</svg>
+						</a>
+						<a href="https://www.linkedin.com/feed/" target="_blank" title="My resume">
+							<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-text header__personal-icon" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ABABAB" fill="none" stroke-linecap="round" stroke-linejoin="round">
+								<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+								<path d="M14 3v4a1 1 0 0 0 1 1h4" />
+								<path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+								<line x1="9" y1="9" x2="10" y2="9" />
+								<line x1="9" y1="13" x2="15" y2="13" />
+								<line x1="9" y1="17" x2="15" y2="17" />
+							</svg>
+						</a>
+					</section> <!--header__personal-links-->
+				</div> <!--hero__personal-->
+			</section> <!--header__hero-->
+		</div> <!--contenedor-->
+   </header>
+	
+	<div class="t491__container t-card__container t-container">
+		<div class="t-card__col t-card__col_withoutbtn t491__col t-col t-col_3 t-item">
+			<div class="t491__content"><div class="t491__wrapper">
+				<img class="t491__img t-img loaded" src="https://thumb.tildacdn.com/tild6363-3062-4661-b737-376335303335/-/resize/100x/-/format/webp/4-min.png" data-original="https://static.tildacdn.com/tild6363-3062-4661-b737-376335303335/4-min.png" imgfield="li_img__1476976310929" style="width:50px;" alt="">
+				<div class="t-card__title t-name t-name_sm" field="li_title__1476976310929" style="color:#c29431;font-size:16px;font-weight:500;">Сервис</div>
+			</div><div class="t-card__descr t-descr t-descr_xs" field="li_descr__1476976310929" style="color:#ffffff;font-size:15px;line-height:1.4;">Бар и&nbsp;бесплатные напитки в&nbsp;распоряжении каждого джентльмена. Высокий уровень сервиса и&nbsp;уважительное отношение.</div>
+			</div>
+		</div>
+		<div class="t-card__col t-card__col_withoutbtn t491__col t-col t-col_3 t-item">
+			<div class="t491__content">
+				<div class="t491__wrapper">
+					<img class="t491__img t-img loaded" src="https://thumb.tildacdn.com/tild3937-3534-4662-b265-376663383565/-/resize/100x/-/format/webp/2-min.png" data-original="https://static.tildacdn.com/tild3937-3534-4662-b265-376663383565/2-min.png" imgfield="li_img__1476976315081" style="width:50px;" alt="">
+					<div class="t-card__title t-name t-name_sm" field="li_title__1476976315081" style="color:#c29431;font-size:16px;font-weight:500;">1200+ костюмов</div>
+				</div>
+				<div class="t-card__descr t-descr t-descr_xs" field="li_descr__1476976315081" style="color:#ffffff;font-size:15px;line-height:1.4;">Самый большой ассортимент&nbsp;— более 1200 костюмов-троек в&nbsp;наличии. Итальянские лекала, производство в&nbsp;Турции.</div>
+			</div>
+		</div>
+		<div class="t-card__col t-card__col_withoutbtn t491__col t-col t-col_3 t-item">
+			<div class="t491__content"><div class="t491__wrapper">
+				<img class="t491__img t-img loaded" src="https://thumb.tildacdn.com/tild6135-6137-4636-b135-653936636562/-/resize/100x/-/format/webp/1-min.png" data-original="https://static.tildacdn.com/tild6135-6137-4636-b135-653936636562/1-min.png" imgfield="li_img__1476976330452" style="width:50px;" alt="">
+				<div class="t-card__title t-name t-name_sm" field="li_title__1476976330452" style="color:#c29431;font-size:16px;font-weight:500;">Обувь и&nbsp;аксессуары</div>
+			</div>
+				<div class="t-card__descr t-descr t-descr_xs" field="li_descr__1476976330452" style="color:#ffffff;font-size:15px;line-height:1.4;">Более 100 моделей удобной классической обуви из&nbsp;натуральной кожи, а&nbsp;также богатый выбор аксессуаров.</div></div></div><div class="t-card__col t-card__col_withoutbtn t491__col t-col t-col_3 t-item"><div class="t491__content"><div class="t491__wrapper"><img class="t491__img t-img loaded" src="https://thumb.tildacdn.com/tild6534-3733-4764-b037-643036343836/-/resize/100x/-/format/webp/3-min.png" data-original="https://static.tildacdn.com/tild6534-3733-4764-b037-643036343836/3-min.png" imgfield="li_img__1476976334035" style="width:50px;" alt=""><div class="t-card__title t-name t-name_sm" field="li_title__1476976334035" style="color:#c29431;font-size:16px;font-weight:500;">Помощь стилиста</div></div><div class="t-card__descr t-descr t-descr_xs" field="li_descr__1476976334035" style="color:#ffffff;font-size:15px;line-height:1.4;">Наши стилисты помогут правильно подобрать костюм и&nbsp;предметы гардероба, дадут независимую оценку выбранного фасона.</div></div></div></div>
+
+	<section class="about" id="about-me">
+		<div class="contenedor">
+			<h2 class="about__title">ABOUT US</h2>
+			<div class="about__content">
+				<div class="about__description">
+					<p>
+						Established in 2023 against the backdrop of the vibrant city of Astana, Kazakhstan, Shoqai is more than a brand; it's a celebration of classic style and enduring sophistication. Rooted in a commitment to quality craftsmanship and an appreciation for timeless fashion, Shoqai is your destination for impeccably tailored menswear that transcends fleeting trends. At Shoqai, we believe in the enduring allure of classic clothing. Our collection of menswear is a homage to the timeless silhouettes, refined details, and enduring elegance that define true style. From impeccably tailored suits that exude sophistication to tastefully curated ties and shoes, each piece in our collection is a testament to the enduring charm of classic fashion.
+						Welcome to Shoqai – Where Classic Elegance Meets Modern Confidence.
+					</p>
+				</div> <!--about__description-->
+				<div class="about__img-container">
+					<img src="{{ url_for('static', filename='assets/img/suitt.jpg') }}" alt="person showing hobbies">
+				</div>
+			</div> <!--.about__content-->
+		</div>
+	</section>
+
+	<main class="main" id="projects">
+    <div class="container">
+        <h2 class="title-1">Catalog</h2>
+        <ul class="projects">
+            <li class="project">
+                <a href="#" onclick="redirectToAnotherPage('suit01.html')">
+                    <img src="{{ url_for('static', filename='assets/img/suit01.png') }}" alt="Project img" class="project__img">
+                    <h3 class="project__title">Double-breasted striped suit</h3>
+                </a>
+            </li>
+        </ul>
+    </div>
+		<script>
+    function redirectToAnotherPage(page) {
+        window.location.href = page;
+    }
+</script>
+
+                <li class="project">
+                    <a href="#">
+                        <img src="{{ url_for('static', filename='assets/img/suit02.png') }}" alt="Project img" class="project__img">
+                        <h3 class="project__title">Suit double in stripes</h3>
+                    </a>
+                </li>
+                <li class="project">
+                    <a href="#">
+                        <img src="{{ url_for('static', filename='assets/img/suit03.png') }}" alt="Project img" class="project__img">
+                        <h3 class="project__title">Suit in brown shades</h3>
+                    </a>
+                </li>
+
+                <li class="project">
+                    <a href="#">
+                        <img src="{{ url_for('static', filename='assets/img/suit04.png') }}"alt="Project img" class="project__img">
+                        <h3 class="project__title">Black two-piece suit</h3>
+                    </a>
+                </li>
+                <li class="project">
+                    <img src="{{ url_for('static', filename='assets/img/suit05.png') }}" alt="Project img" class="project__img">
+                    <h3 class="project__title">Brown Striped Double Breasted Suit</h3>
+                </li>
+                <li class="project">
+                    <img src="{{ url_for('static', filename='assets/img/suit06.png') }}" alt="Project img" class="project__img">
+                    <h3 class="project__title">Three-piece suit in blue</h3>
+                </li>
+
+            </ul>
+        </div>
+	</main>
+
+	<section class="contact" id="contact-me">
+		<h2 class="contact__title">CONTACT</h2>
+
+		<form class="contact__form">
+			<fieldset>
+				<legend>Contact us filling this form</legend>
+				<div>
+					<input class="contact__input" type="text" placeholder="Name" id="name" name="name">
+				</div>
+				<div>
+					<input class="contact__input" type="email" placeholder="Email" id="email" name="email">
+				</div>
+				<div>
+					<textarea placeholder="Write your message..." id="message" name="message"></textarea>	
+				</div>
+				<div class="flex-right">
+					<input class="contact__submit btn opacity-50 cursor-not-allowed" type="submit" value="Send Message" disabled>
+				</div>
+			</fieldset>
+		</form>
+	</section>
+
+	<footer class="footer">
+		<p>&copy; <span id="year"></span> Shoqai Suits</p>
+	</footer>
+
+	<!-- scrollBtn arrow -->
+	<a href="#home" class="top-link">
+		<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-up" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+			<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+			<line x1="12" y1="5" x2="12" y2="19" />
+			<line x1="16" y1="9" x2="12" y2="5" />
+			<line x1="8" y1="9" x2="12" y2="5" />
+		</svg>
+	</a>
+
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script src="{{ url_for('static', filename='js/scrollBtn.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/Typed-script.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/Date-toggleNavbar-typeNameColor.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/modal.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/skills.js') }}"></script>
+	<!-- send emails -->
+	<script src="{{ url_for('static', filename='js/sendEmail.js') }}"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	<script type="text/javascript">
+		emailjs.init('YJdKQVH_2tANf4Cbz')
+ 	</script>
+</body>
+</html>
