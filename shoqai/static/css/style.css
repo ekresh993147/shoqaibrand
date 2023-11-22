@@ -480,7 +480,8 @@ h2 {
 /* --------------- */
 /* MAIN (PROJECTS) */
 .main {
-   min-height: 100vh;
+display:flex;
+   min-height: 20vh;
    background-color: var(--neutral3);
 }
 

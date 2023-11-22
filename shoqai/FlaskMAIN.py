@@ -18,6 +18,26 @@ def home():
 def suit01():
     return render_template("suit01.html")
 
+@app.route("/suit02.html")
+def suit02():
+    return render_template("suit02.html")
+
+@app.route("/suit03.html")
+def suit03():
+    return render_template("suit03.html")
+
+@app.route("/suit04.html")
+def suit04():
+    return render_template("suit04.html")
+
+@app.route("/suit05.html")
+def suit05():
+    return render_template("suit05.html")
+
+@app.route("/suit06.html")
+def suit06():
+    return render_template("suit06.html")
+
 
 
 @app.route("/upload", methods=["GET", "POST"])
